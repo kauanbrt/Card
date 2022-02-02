@@ -1,0 +1,70 @@
+.element{
+    border: 5px solid black;
+    width: 400px;
+    height: 200px;
+}
+.background{
+    width: 400px;
+    height: 200px;
+    
+}
+@font-face{
+    font-family: 'Neucha', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Neucha&display=swap);
+}
+.name{
+    font-family: Neucha;
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding: 20px;
+}
+ul{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    padding: 50px;
+ 
+}
+.ins{
+    font-family: Neucha;
+    list-style-image: url(./Imagens/Insta.png);
+    
+}
+.tw{
+    font-family: Neucha;
+    list-style-image: url(./Imagens/Twitter.png);
+}
+.yt{
+    font-family: Neucha;
+    list-style-image: url(./Imagens/Youtube.png);
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    font-family: Neucha;
+    text-decoration: none;
+    color: #1d467b;
+    border: 2px solid #1d467b;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+
+}
+.link:hover{
+    background-color: #1d467b;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    margin-top: 20px;
+    margin-left:145px
+}
